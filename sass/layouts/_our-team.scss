@@ -4,8 +4,8 @@
   padding-right: 0;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--button);
-  color: var(--title-color);
+  background-color: $button;
+  color: $title-color;
   width: auto;
 }
 
@@ -15,11 +15,11 @@
 
 .team-item {
   text-align: center;
-  background-color: var(--white);
+  background-color: $white;
 }
 
 .team-item {
-  background: var(--white);
+  background: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -40,7 +40,7 @@
 }
 
 .team p {
-  color: var(--main-text-color);
+  color: $main-text-color;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.19;

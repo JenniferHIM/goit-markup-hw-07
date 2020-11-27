@@ -12,14 +12,14 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white);
-  background-color: var(--accent-color);
+  color: $white;
+  background-color: $accent-color;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--white);
-  background-color: var(--accent-color);
+  color: $white;
+  background-color: $accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

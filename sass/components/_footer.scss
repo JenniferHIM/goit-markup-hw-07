@@ -1,6 +1,6 @@
 /*Футер*/
 .footer-box {
-  background-color: var(--dark-background);
+  background-color: $dark-background;
 }
 
 .footer-logo {
@@ -11,7 +11,7 @@
   font-size: 26px;
   line-height: 1.19;
 
-  color: var(--white);
+  color: $white;
 }
 
 .footer-address {
@@ -20,14 +20,14 @@
 }
 
 .footer-address .link {
-  color: var(--white);
+  color: $white;
   margin-bottom: 9px;
   display: inline-block;
   font-style: normal;
 }
 
 .footer-contacts .link {
-  color: var(--footer-contacts);
+  color: $footer-contacts;
 }
 
 .footer-container {

@@ -7,7 +7,7 @@
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
   margin-bottom: 20px;
 }
 
@@ -17,5 +17,5 @@
 
 .footer {
   background: rgba(255, 255, 255, 0.1);
-  fill: var(--white);
+  fill: $white;
 }

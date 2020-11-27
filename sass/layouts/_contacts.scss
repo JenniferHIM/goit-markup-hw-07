@@ -7,7 +7,7 @@
 
 .email-icon {
   margin-right: 10px;
-  fill: var(--main-text-color);
+  fill: $main-text-color;
 }
 
 .auth-nav .contact-link {
@@ -18,23 +18,23 @@
 .auth-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover .email-icon,
 .contact-link:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .head-line {
-  border-bottom: 1px solid var(--main-text-color);
+  border-bottom: 1px solid $main-text-color;
 }

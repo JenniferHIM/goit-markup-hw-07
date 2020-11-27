@@ -19,7 +19,7 @@
   border-radius: 50%;
   background-size: 20px;
   background-repeat: no-repeat;
-  fill: var(--icon-color);
+  fill: $icon-color;
 }
 
 .socialmedia-icon {
@@ -28,8 +28,8 @@
 }
 
 .socialmedia:hover {
-  background-color: var(--accent-color);
-  fill: var(--white);
+  background-color: $accent-color;
+  fill: $white;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -7,8 +7,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
-  background-color: var(--white);
+  color: $main-text-color;
+  background-color: $white;
 }
 
 textarea {
@@ -53,13 +53,13 @@ p {
 
 /*Ссылка*/
 .link {
-  color: var(--title-color);
+  color: $title-color;
   text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -83,7 +83,7 @@ p {
 
 .section-title {
   margin-bottom: 50px;
-  color: var(--title-color);
+  color: $title-color;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -96,7 +96,7 @@ p {
 
 /*Специальный синий выделитель для "студия" и "e-mail"*/
 .current {
-  color: var(--accent-color);
+  color: $accent-color;
   position: relative;
   padding-bottom: 0;
 }
@@ -110,12 +110,12 @@ p {
   border-radius: 2px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   margin-top: 28px;
 }
 
 /*Бэкграунд*/
 .dark-background {
-  background: var(--dark-background);
-  color: var(--white);
+  background: $dark-background;
+  color: $white;
 }

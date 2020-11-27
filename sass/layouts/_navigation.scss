@@ -19,12 +19,12 @@
   font-weight: 500;
   line-height: 1.314;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
