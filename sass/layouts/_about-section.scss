@@ -1,0 +1,99 @@
+/*Преимущества*/
+.section .about-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.about-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section .li-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.list-item {
+  width: cal(100% - 90px) / 4;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-section {
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+/*Обнуляем в .about верхний паддинг*/
+.about {
+  padding-top: 0;
+}
+
+.about-title {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  line-height: 1.14;
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+
+.about-info {
+  margin-bottom: 0;
+  display: inline-block;
+  line-height: 1.71;
+  font-weight: normal;
+  color: #757575;
+}
+
+.about-info:not(:last-child) {
+  margin-right: 30px;
+}
+/*Overlay в секции О нас*/
+.about-thumb {
+  position: relative;
+}
+
+.about-overlay {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 27px 0;
+  margin-bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/*Следующие свойства для иконок в Преимущества*/
+.feature > .list-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 25px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--button);
+  border-radius: 4px;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/icon/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/icon/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/icon/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/icon/astronaut.svg);
+}
