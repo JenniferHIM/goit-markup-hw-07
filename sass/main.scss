@@ -1,7 +1,9 @@
 @import "./base/normalize";
 @import "./base/invisible";
 @import "./utils/variables";
-@import "./base/common";
+@import "./utils/animation";
+@import "./components/common";
+@import "./components/link";
 @import "./layouts/header";
 @import "./components/logo";
 @import "./layouts/navigation";

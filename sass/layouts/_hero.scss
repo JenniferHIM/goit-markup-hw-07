@@ -8,7 +8,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/Img.jpg");
+    url("./images/Img.jpg");
   background-color: $dark-background;
 }
 
@@ -18,15 +18,16 @@
   padding-bottom: 200px;
   text-align: center;
   letter-spacing: 0.06em;
-}
-.hero-title {
-  display: inline-block;
-  margin-bottom: 30px;
-  max-width: 696px;
-  color: var(--white);
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+
+  .hero-title {
+    display: inline-block;
+    margin-bottom: 30px;
+    max-width: 696px;
+    color: $white;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 }

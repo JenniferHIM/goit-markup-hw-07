@@ -1,5 +1,5 @@
 /*Логотип*/
-.logo {
+%logo {
   margin-bottom: 0;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -14,4 +14,16 @@
 
 .logo-part {
   color: $accent-color;
+}
+
+.logo-header {
+  @extend %logo;
+  color: $main-text-color;
+}
+
+.footer-logo {
+  @extend %logo;
+  color: $white;
+  display: inline-block;
+  margin-bottom: 20px;
 }

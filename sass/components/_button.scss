@@ -14,12 +14,17 @@
   letter-spacing: 0.06em;
   color: $white;
   background-color: $accent-color;
+  align-items: center;
+
+  %hover-button {
+    background-color: $bgn-white-color;
+    color: $button-blue;
+  }
 }
 
-.button:hover,
-.button:focus {
+&:hover,
+&:focus {
   color: $white;
   background-color: $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }

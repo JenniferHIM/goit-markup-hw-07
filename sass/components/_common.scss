@@ -2,6 +2,12 @@ html {
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -24,6 +30,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 h1,
 h2,
 h3,
@@ -40,6 +47,8 @@ p {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -49,20 +58,6 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-/*Ссылка*/
-.link {
-  color: $title-color;
-  text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: $accent-color;
-  text-decoration: underline;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Навигация */
