@@ -828,6 +828,10 @@ p {
   margin-right: 30px;
 }
 
+.clients-title {
+  margin-top: 94px;
+}
+
 .clients-logo {
   display: inline-flex;
   align-items: center;
