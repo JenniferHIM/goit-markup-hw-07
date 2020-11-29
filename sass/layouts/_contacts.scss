@@ -3,6 +3,12 @@
   display: inline-flex;
   margin-top: 32px;
   margin-bottom: 32px;
+
+  & .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $main-text-color;
+  }
 }
 
 .email-icon {
@@ -15,24 +21,16 @@
   font-weight: 500;
 }
 
-.auth-nav .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: $main-text-color;
-}
-
 .contact-link:hover,
 .contact-link:focus {
   color: $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .contact-link:hover .email-icon,
 .contact-link:focus {
   fill: $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .head-line {

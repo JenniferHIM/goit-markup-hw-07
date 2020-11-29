@@ -7,6 +7,26 @@
   background-color: $button;
   color: $title-color;
   width: auto;
+
+  & h3 {
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+  }
+
+  & p {
+    color: $main-text-color;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
 }
 
 .team .list {
@@ -16,10 +36,6 @@
 .team-item {
   text-align: center;
   background-color: $white;
-}
-
-.team-item {
-  background: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -27,24 +43,4 @@
 
 .team .team-item + .team-item {
   margin-left: 30px;
-}
-
-.team h3 {
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-style: normal;
-}
-
-.team p {
-  color: $main-text-color;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }

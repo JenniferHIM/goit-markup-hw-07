@@ -18,10 +18,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-}
 
-.form-field label {
-  margin-bottom: 4px;
+  & label {
+    margin-bottom: 4px;
+  }
 }
 
 .form-field input,
@@ -104,19 +104,24 @@ textarea {
   margin-bottom: 30px;
 }
 
+.policy-link {
+  color: $accent-color;
+  margin-left: 4px;
+}
+
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
 
-.checkbox:checked + .checkbox-icon {
-  border-color: $accent-color;
-  background-color: $accent-color;
-  background-image: url(../images/check.svg);
-  background-size: contain;
-  background-origin: border-box;
-  @extend %animation;
+  &:checked + .checkbox-icon {
+    border-color: $accent-color;
+    background-color: $accent-color;
+    background-image: url(../images/check.svg);
+    background-size: contain;
+    background-origin: border-box;
+    @extend %animation;
+  }
 }
 
 .checkbox-icon {
@@ -127,9 +132,4 @@ textarea {
   border: 2px solid $title-color;
   border-radius: 2px;
   cursor: pointer;
-}
-
-.policy-link {
-  color: $accent-color;
-  margin-left: 4px;
 }

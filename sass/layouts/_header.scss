@@ -3,10 +3,10 @@
   align-items: center;
   background-color: $white;
   border-bottom: 1px solid #ececec;
-}
 
-.header .logo {
-  margin-right: 93px;
+  & .logo {
+    margin-right: 93px;
+  }
 }
 
 .header-container {

@@ -20,15 +20,16 @@
   background-size: 20px;
   background-repeat: no-repeat;
   fill: $icon-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $white;
+    @extend %animation;
+  }
 }
 
 .socialmedia-icon {
   width: 20px;
   height: 20px;
-}
-
-.socialmedia:hover {
-  background-color: $accent-color;
-  fill: $white;
-  @extend %animation;
 }
