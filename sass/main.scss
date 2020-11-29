@@ -1,6 +1,6 @@
 @import "./base/normalize";
 @import "./base/invisible";
-@import "./utils/variables";
+@import "./utils/variable";
 @import "./utils/animation";
 @import "./components/common";
 @import "./components/link";
@@ -8,15 +8,15 @@
 @import "./components/logo";
 @import "./layouts/navigation";
 @import "./layouts/contacts";
-@import "./layouts/hero.scss";
+@import "./layouts/hero";
 @import "./components/button";
 @import "./layouts/about-section";
 @import "./layouts/our-team";
 @import "./layouts/social";
 @import "./layouts/clients";
 @import "./components/footer";
-@import "./components/join-us.scss";
-@import "./components/sign-up.scss";
+@import "./layouts/join-us";
+@import "./layouts/sign-up";
 @import "./components/filter";
 @import "./components/modal";
 @import "./components/form";

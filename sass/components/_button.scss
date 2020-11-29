@@ -16,14 +16,14 @@
   align-items: center;
 
   %hover-button {
-    background-color: $bgn-white-color;
-    color: $button-blue;
+    background-color: $white;
+    color: $accent-color;
   }
-}
 
-&:hover,
-&:focus {
-  color: $white;
-  background-color: $accent-color;
-  @extend %animation;
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $accent-color;
+    @extend %animation;
+  }
 }

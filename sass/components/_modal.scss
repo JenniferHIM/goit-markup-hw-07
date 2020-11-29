@@ -60,6 +60,5 @@
   fill: $accent-color;
   border-color: $accent-color;
   background-color: $white;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }

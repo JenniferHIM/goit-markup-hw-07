@@ -1,4 +1,4 @@
-/*Form*/
+//Form
 .form {
   width: 448px;
   margin-left: auto;
@@ -58,22 +58,19 @@ textarea {
 
 .input-wrapper:focus-within > .form-icon {
   fill: $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .input-wrapper:focus-within > .form-input {
   outline: none;
   border: 1px solid $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .form-field:focus-within .form-textarea {
   outline: none;
   border: 1px solid $accent-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .man-icon {
@@ -119,8 +116,7 @@ textarea {
   background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %animation;
 }
 
 .checkbox-icon {
